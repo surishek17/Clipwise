@@ -1,0 +1,79 @@
+.row{
+      --bs-gutter-x: 0;
+ }
+.NavBar{
+  background-color: transparent;
+  color: white;
+}
+
+.NavBarItems{
+margin-right: 7rem;
+}
+.Cart{
+  background-color: #FF2B77;
+  height: 25px;
+  width: 25px;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+.HeroLeftBox{
+  z-index: 1;
+}
+.Heading{
+  font-size: 55px;
+  color: white;
+}
+
+.ShopBtn{
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 8rem;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: white;
+  color: #317189;
+
+}
+.ShopBtn:hover{
+  background-color: #ffe7f8;
+}
+
+.HeroDesign {
+ width: 100%;
+ height: 115vh;
+  object-fit: cover;
+  position: absolute;
+  background: linear-gradient(80deg,#1affff,#fbc2eb, #66bffa, #1affff);
+  z-index: -1;
+}
+.card{
+  border: none;
+  border-radius: 20px;
+  position: relative;
+}
+.NewLot{
+  background-color: #8A93E5;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  top: 10%;
+  padding: 8px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.Footer{
+  height: 7rem;
+  background-color: #0A294D;
+  margin-top: -18px;
+}
+
+@media screen, (max-width:768){
+  .Footer{
+    margin-top: auto;
+  }
+}
+

@@ -1,0 +1,95 @@
+
+.row{
+    --bs-gutter-x: 0rem
+}
+.AllProduct{
+    color:#31546D ;
+    text-align: center;
+}
+.Filter{
+    color: #9AB0C0;
+
+}
+#dropdownMenuButton1{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #31546D;
+    font-weight: bold;
+}
+.BUYNOWBTN{
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #6fffff, #66bffa);
+    margin-top: 5px;
+    width: 100px;
+    height: 35px;
+}
+.BUYNOWBTN:hover{
+    font-weight: bold;
+}
+.Vector{
+    width: 100%;
+    /* height: 115vh; */
+     object-fit: cover;
+     position: absolute;
+     background: linear-gradient(80deg,#1affff,#fbc2eb, #66bffa, #1affff);
+     z-index: -1;
+}
+
+.ShowALLBTN{
+ border: 2px solid #66bffa;
+ border-radius: 10px;
+ width: 110px;
+ height: 40px;
+ color: #66bffa;
+ font-weight: bold;
+ 
+ background-color: transparent;
+ outline: none;
+
+}
+.EllipsDiv{
+position: relative;
+}
+.Ellip{
+    position: absolute;
+    margin-top: 8rem;
+}
+.Ellip2{
+    position: absolute; 
+    padding: 12%;
+
+}
+.Ellip3{
+    position: relative;
+    padding: 20%;
+}
+.BESTPRICE{
+  /* margin-top: 30%; */
+ color: #31546D;
+ font-size: 30px;
+}
+.PhoneGRIP{
+    /* margin-top: 40%; */
+    color: #31546D;
+    
+}
+.DollerPrice{
+    text-decoration: line-through;
+    color: #41A0B7;
+    font-size: 20px;
+    margin-top: -5px;
+}
+.Doller{
+    position: relative;
+    color: #E35B3E;
+    font-size: 50px;
+    margin-top: -25px;
+
+}
+.RightSection{
+    margin-top: 9rem;
+}
